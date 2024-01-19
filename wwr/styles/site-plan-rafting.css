@@ -1,0 +1,52 @@
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light?classification=Handwriting')
+@import url('https://fonts.google.com/specimen/Roboto?stroke=Sans+Serif')
+
+:root {
+    --primary-color: 5603AD;
+    --secondary-color:7FB685;
+    --accent1-color: 89AAE6;
+    --accent2-color: 426A5A;
+
+    --heading-font: 'shadowsintolight', handwriting;
+    --paragraph-font: 'roboto', sans serif;
+
+    --nav-background-color: 426A5A; 
+    --nav-link-color: 89AAE6;
+    --nav-hover-link-color: 89AAE6;
+    --nav-hover-background-color: 7FB685;
+}
+body {
+    font-family: var(--roboto-font)
+    (max-width) 960pixels 
+    padding 20 pixels
+}
+h1 , h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color:var(--nav-background-color)
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem; 
+}
+nav a: link, nav a:visited {
+    color: var(--nav-link-color) 
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
