@@ -38,8 +38,8 @@ aside {
 }
 aside h2{
     position: absolute;
-    top: 50px;
-    left: 100px;
+    top: 10px;
+    left: 50px;
 }
 aside img {
     width: 200px;
