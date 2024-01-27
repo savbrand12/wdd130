@@ -1,0 +1,12 @@
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light?classification=Handwriting')('https://fonts.google.com/specimen/Roboto?stroke=Sans+Serif')
+:root {
+    --nav-heading-color: 89AAE6;
+    --nav-paragraph-color: 426A5A; 
+    --nav-hover-paragraph-color: 89AAE6;
+    --nav-hover-heading-color: 7FB685;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
