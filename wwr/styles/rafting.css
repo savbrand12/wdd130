@@ -10,3 +10,42 @@
     width: 100%;
     height: auto;
 }
+header {
+    padding: 30px
+    background-color: var(--nav-paragraph-color)
+}
+p {
+    padding: 10px
+}
+nav {
+    background-color: var(--nav-heading-color);
+    font-size: 1rem,
+    display: flex
+}
+body {
+    padding: 10px
+    max-width: 960px
+}
+main {
+    padding: 50px
+}
+main img {
+    width: 100px;
+    height: auto;
+}
+footer {
+    margin-top: 10px;
+    border-top: 1px solid #222;
+    text-align: center;
+    padding: 30px
+    display: block
+}
+aside {
+    width: 15rem
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2); /* 1 */
+    padding: 5rem
+    background-color: #eee;
+    color: #333
+    text-align: center;
+}
